@@ -1,0 +1,96 @@
+.title{
+    font-size: 20px;
+    color:rgb(71, 71, 225);
+    margin-bottom: 90px;
+    margin-left: 90px;
+}
+.underline{
+    background-color: rgb(134, 134, 255);
+    width:150px;
+    border-radius: 30px;
+    margin-left:7px;
+    height:10px;
+}
+#box{
+border:solid 2px rgb(218, 218, 255);
+width:400px;
+background-color: rgb(255, 255, 255);
+padding: 40px;
+height:795px;
+padding-right: 10px;
+border-radius: 10px;
+box-shadow:  10px 10px 10px #0808110f;
+}
+
+body{
+    background-color:whitesmoke;
+}
+.contanier{
+    margin-left:375px;
+    margin-right: 375px;
+
+justify-content: center;}
+#author{
+    color:rgb(47, 47, 144);
+}
+#job{
+    color: rgb(67, 214, 239);
+}
+#info{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    color:#468cbb;
+    width: 300px;;
+}
+#person-img{
+    border-collapse: collapse;
+    border-radius: 50%;
+    border:solid  rgb(126, 126, 248) 10px;
+    border-style:double;
+}
+.button{
+    align-items: center;
+    margin-right: 60px;
+}
+.left{
+   background-color: white; 
+   border: none;
+   font-size: 23px;
+   color:blue;
+}
+.right{
+    background-color: white; 
+   border: none;
+   font-size: 23px;
+   color:blue;   
+}
+.right:hover{
+    color:rgb(158, 158, 252);
+    border:solid rgb(202, 145, 255);
+    border-radius: 13px;
+    background-color:rgb(103, 103, 193);
+    box-shadow:  solid 5px blue;
+    transition:0.5s;
+}
+.left:hover{
+    color:rgb(158, 158, 252);
+    border:solid rgb(202, 145, 255);
+    border-radius: 13px;
+    background-color:rgb(103, 103, 193);
+    box-shadow:  solid 5px blue;
+    transition:0.3s;
+}
+.random{
+    margin-top: 10px;
+    border-color: rgb(99, 99, 239);
+    border-style:groove;
+    border-radius: 20px;
+    color: aquamarine;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(107, 107, 197);
+}
+.random:hover{
+    background-color: rgb(201, 201, 243);
+    color:whitesmoke;
+    transition: 0.4s;
+}
